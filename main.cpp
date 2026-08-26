@@ -1,16 +1,24 @@
 //create a compile config for multiple main functions for TEST, CLIENT and SERVER
 #include <iostream>
 
-#if defined(WEE_TEST) 
+#if defined(TEST)
+
 int main() {
-    std::cout << "those damn monkeys should be sent to the zoo!!\n";
-    return 0;
+    std::cout << "test idk\n";
 }
 
-#else 
+// void initialization() { //pre run and warm up of linux specific utilities
+
+// }
+// void _main_function_caller() { //idk what to call this but calls the main function of respected program
+
+// }  
+
+#else
 
 int main() {
     std::cout << "chimp" << std::endl;
     return 0;
 }
+
 #endif
