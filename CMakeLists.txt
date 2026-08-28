@@ -14,5 +14,5 @@ target_sources(
         BASE_DIRS
             src/c++/include
         FILES
-            client.hpp
+            src/c++/include/client.hpp
     )
