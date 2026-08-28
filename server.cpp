@@ -1,1 +1,0 @@
-//server sided code and calling of go functions etc
